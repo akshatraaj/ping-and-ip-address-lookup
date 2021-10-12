@@ -1,0 +1,73 @@
+Microsoft Windows [Version 10.0.19043.1266]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\User>iplookup
+'iplookup' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\User>ipconfig
+
+Windows IP Configuration
+
+
+Ethernet adapter Ethernet:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+Wireless LAN adapter Local Area Connection* 1:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+Wireless LAN adapter Local Area Connection* 2:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+Wireless LAN adapter Wi-Fi:
+
+   Connection-specific DNS Suffix  . :
+   Link-local IPv6 Address . . . . . : fe80::c45b:c591:47bf:10fe%6
+   IPv4 Address. . . . . . . . . . . : 192.168.1.5
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Default Gateway . . . . . . . . . : 192.168.1.1
+
+C:\Users\User>ping www.google.com
+
+Pinging www.google.com [142.250.194.4] with 32 bytes of data:
+Reply from 142.250.194.4: bytes=32 time=62ms TTL=118
+Reply from 142.250.194.4: bytes=32 time=63ms TTL=118
+Reply from 142.250.194.4: bytes=32 time=89ms TTL=118
+Reply from 142.250.194.4: bytes=32 time=64ms TTL=118
+
+Ping statistics for 142.250.194.4:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 62ms, Maximum = 89ms, Average = 69ms
+
+C:\Users\User>ping www.whithatjr.com
+
+Pinging www.whithatjr.com [212.32.237.92] with 32 bytes of data:
+Request timed out.
+Request timed out.
+Request timed out.
+
+Ping statistics for 212.32.237.92:
+    Packets: Sent = 3, Received = 0, Lost = 3 (100% loss),
+Control-C
+^C
+C:\Users\User>ping www.whitehatjr.com
+
+Pinging www.whitehatjr.com.cdn.cloudflare.net [104.18.23.15] with 32 bytes of data:
+Reply from 104.18.23.15: bytes=32 time=33ms TTL=59
+Reply from 104.18.23.15: bytes=32 time=33ms TTL=59
+Reply from 104.18.23.15: bytes=32 time=33ms TTL=59
+Reply from 104.18.23.15: bytes=32 time=72ms TTL=59
+
+Ping statistics for 104.18.23.15:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 33ms, Maximum = 72ms, Average = 42ms
+
+C:\Users\User>
